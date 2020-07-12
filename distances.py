@@ -2,10 +2,7 @@ import numpy as np
 from sklearn.metrics.pairwise import euclidean_distances, manhattan_distances, cosine_distances
 
 def euclidean_distances(X, Y):
-    """Compute pairwise Euclidean distance between the rows of two matrices X (shape MxK) 
-    and Y (shape NxK). The output of this function is a matrix of shape MxN containing
-    the Euclidean distance between two rows.
-    
+    """    
     Arguments:
         X {np.ndarray} -- First matrix, containing M examples with K features each.
         Y {np.ndarray} -- Second matrix, containing N examples with K features each.
@@ -25,10 +22,7 @@ def euclidean_distances(X, Y):
 
 
 def manhattan_distances(X, Y):
-    """Compute pairwise Manhattan distance between the rows of two matrices X (shape MxK) 
-    and Y (shape NxK). The output of this function is a matrix of shape MxN containing
-    the Manhattan distance between two rows.
-    
+    """    
     Arguments:
         X {np.ndarray} -- First matrix, containing M examples with K features each.
         Y {np.ndarray} -- Second matrix, containing N examples with K features each.
@@ -49,10 +43,7 @@ def manhattan_distances(X, Y):
     
 
 def cos_distances(X, Y):
-    """Compute Cosine distance between the rows of two matrices X (shape MxK) 
-    and Y (shape NxK). The output of this function is a matrix of shape MxN containing
-    the Cosine distance between two rows.
-    
+    """    
     Arguments:
         X {np.ndarray} -- First matrix, containing M examples with K features each.
         Y {np.ndarray} -- Second matrix, containing N examples with K features each.
